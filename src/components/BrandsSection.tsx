@@ -1,7 +1,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import FeatureCard from './FeatureCard';
-import { LineChart, BrainCog, Sparkles, RocketLaunch } from 'lucide-react';
+import { LineChart, BrainCog, Sparkles, Rocket } from 'lucide-react';
 
 const BrandsSection: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -88,7 +88,7 @@ const BrandsSection: React.FC = () => {
           />
           
           <FeatureCard
-            icon={<RocketLaunch size={24} />}
+            icon={<Rocket size={24} />}
             title="Automated Campaigns"
             description="Let AI handle outreach & negotiation, saving you time and resources."
             delay="0.4s"
